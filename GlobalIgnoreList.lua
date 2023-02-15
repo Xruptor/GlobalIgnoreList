@@ -415,7 +415,7 @@ local function isValidList()
  			
 		if str == nil or str == UNKNOWN then
 			if GlobalIgnoreDB.showWarning == true then
-				ShowMsg(format(L["LOAD_5"], found, UNKNOWN))
+				--ShowMsg(format(L["LOAD_5"], found, UNKNOWN))
 			end
 					
 			return false
@@ -431,7 +431,7 @@ function SyncIgnoreList (silent)
 		silent = false
 	end
 	
-	ShowMsg(L["LOAD_4"])
+	--ShowMsg(L["LOAD_4"])
 
 	if isValidList() == false then
 		return

@@ -202,6 +202,12 @@ The following commands are accessible by typing /gignore or /gi in the chat box:
 
 => VERSION HISTORY
 
+=> 10.0.2.1
+
+Updated for Dragonflight
+Fixed UI crashes
+Changed strata of UI from DIALOG to MEDIUM to provide better layering with other UI elements
+
 => 9.0.5.2
 
 Fixed the prune function which could cause the game to freeze for a period of time if there were ignored NPCs or guilds on the global ignore list
